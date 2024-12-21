@@ -1,0 +1,21 @@
+LOAD DATA LOCAL INFILE 'E:/SQL_Project/ecommerce_dataset_updated.csv' INTO TABLE ecommerce FIELDS TERMINATED BY ',' OPTIONALLY ENCLOSED BY '\"' LINES TERMINATED BY '\n' IGNORE 1 LINES (
+    Customer ID,
+    Age,
+    Gender,
+    Item Purchased,
+    Category,
+    Purchase Amount (USD),
+    Location,
+    Size,
+    Color,
+    Season,
+    Review Rating,
+    Subscription Status,
+    Payment Method,
+    Shipping Type,
+    Discount Applied,
+    Promo Code Used,
+    Previous Purchases,
+    Preferred Payment Method,
+    Frequency of Purchases
+);

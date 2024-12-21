@@ -1,0 +1,2 @@
+ALTER TABLE ecommerce_new
+ALTER COLUMN User_ID TYPE VARCHAR(50);
